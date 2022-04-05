@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+
+  <title>Frontend Mentor | Room homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="header">
+
+    <ion-icon name="menu-outline" class="header_toggle" id="toggle-menu"></ion-icon>
+    <label for="">
+      <img src="./images/logo.svg" alt="">
+    </label>
+
+    <nav id="nav-menu">
+      <ion-icon name="close-outline" class="header_close" id="close-menu"></ion-icon>
+
+      <ul>
+        <li> <a href="#">Home</a> </li>
+        <li> <a href="#">Shop</a> </li>
+        <li> <a href="#">About</a> </li>
+        <li> <a href="#">Contact</a> </li>
+      </ul>
+
+    </nav>
+
+  </div>
+
+  <div class="container">
+
+    <div class="firstpart active">
+      <div class="slide">
+        <div class="first">
+          <img src="./images/desktop-image-hero-1.jpg" alt="">
+        </div>
+        <div class="second">
+          <div class="second-text">
+            <h2>Discover innovative ways to decorate</h2>
+            <p> We provide unmatched quality, comfort, and style for property owners across the country.
+              Our experts combine form and function in bringing your vision to life. Create a room in your
+              own style with our collection and make your property a reflection of you and what you love.</p>
+            <div class="shop">
+              <a href="#">shop now</a>
+              <span><img src="./images/icon-arrow.svg" alt=""></span>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="firstpart">
+      <div class="slide">
+        <div class="first">
+          <img src="./images/desktop-image-hero-2.jpg" alt="">
+        </div>
+        <div class="second">
+          <div class="second-text">
+            <h2>We are available all across the globe</h2>
+            <p> With stores all over the world, it's easy for you to find furniture for your home or place of business.
+              Locally, we’re in most major cities throughout the country. Find the branch nearest you using our
+              store locator. Any questions? Don't hesitate to contact us today.</p>
+              <div class="shop">
+                <a href="#">shop now</a>
+                <span><img src="./images/icon-arrow.svg" alt=""></span>
+              </div>
+        
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="firstpart">
+      <div class="slide">
+        <div class="first">
+          <img src="./images/desktop-image-hero-3.jpg" alt="">
+        </div>
+        <div class="second">
+          <div class="second-text">
+            <h2>Manufactured with the best materials</h2>
+            <p> Our modern furniture store provide a high level of quality. Our company has invested in advanced
+              technology
+              to ensure that every product is made as perfect and as consistent as possible. With three decades of
+              experience in this industry, we understand what customers want for their home and office.</p>
+              <div class="shop">
+                <a href="#">shop now</a>
+                <span><img src="./images/icon-arrow.svg" alt=""></span>
+              </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="prev" onclick="prev()">
+      < </div>
+
+        <div id="next" onclick="next()"> > </div>
+
+    </div>
+
+    <div class="lastpart">
+
+      <div class="lastpart-box">
+
+        <img src="./images/image-about-dark.jpg" alt="">
+        <div class="paragraph">
+          <h3>About our furniture</h3>
+          <p> Our multifunctional collection blends design and function to suit your individual taste.
+            Make each room unique, or pick a cohesive theme that best express your interests and what
+            inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+            or anything in between. Product specialists are available to help you create your dream space.</p>
+        </div>
+        <img src="./images/image-about-light.jpg" alt="">
+
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="daretunmise.netlify.app">Dare Tunmise</a>.
+    </div>
+
+
+    <script src="./images/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
